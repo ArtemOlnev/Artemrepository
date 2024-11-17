@@ -1,0 +1,52 @@
+p {
+	color: #162EAE;
+	font-size:20px;
+	font-family: "Verdana",  sans-serif;
+}
+h2,h3 {
+	color: #6325B2;
+	font-family: "Georgia", serif;
+}
+li {
+	color: #162EAE;
+	font-family: "Verdana", sans-serif;
+}
+tr {
+	color: #162EAE;
+	font-family: "Verdana",  sans-serif;
+}
+span {
+   font-style: italic;
+   font-size: 21px;
+   color: #560ead;
+}
+a:hover {
+	color: green;
+}
+a {
+	color: #9F3ED5; 
+ 	background : #E667AF; 
+ 	padding : 20px 10px 20px  10px;
+}
+.tezis1 {
+	display: flex;
+	flex direction: row;
+  	margin: auto;
+  	border: 3px solid black;
+  	column-gap: 50px;
+}
+.tezis2 {
+	display: flex;
+  	flex-direction: column;
+	padding : auto;
+  	margin: auto;
+  	}
+.t1 {
+	color: #6325B2;
+	font-family: "Georgia", serif;
+	font-size:25px;
+}
+.t2 {
+	display: flex;
+  	flex-direction: column;
+	row-gap: 20px;

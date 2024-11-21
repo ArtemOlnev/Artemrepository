@@ -1,0 +1,82 @@
+/* Базовый стиль для всех ссылок */
+a {
+    color: #9F3ED5;
+    text-decoration: none; /* убирает подчеркивание */
+}
+
+/* Стили для ссылок в навигации (шапка) */
+.header-nav a {
+    background: #E667AF;
+    color: #9F3ED5;
+    padding: 20px 10px;
+    border-radius: 5px; /* скругленные углы */
+}
+
+/* Цвет ссылки при наведении в шапке */
+.header-nav a:hover {
+    color: green;
+    background-color: lightgreen;
+}
+
+/* Стиль для ссылок в футере */
+.footer-link {
+    color: #162eae; /* можно изменить цвет на нужный */
+    background: none; /* убирает фон */
+    text-decoration: underline; /* подчеркивание для футера */
+}
+
+/* Остальные стили страницы */
+p {
+    color: #162eae;
+    font-size: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+h2,
+h3 {
+    color: #6325b2;
+    font-family: 'Georgia', serif;
+}
+
+li {
+    color: #162eae;
+    font-family: 'Verdana', sans-serif;
+}
+
+tr {
+    color: #162eae;
+    font-family: 'Verdana', sans-serif;
+}
+
+span {
+    font-style: italic;
+    font-size: 21px;
+    color: #560ead;
+}
+
+.tezis1 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 3px solid black;
+    column-gap: 50px;
+}
+
+.tezis2 {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+}
+
+.t1 {
+    color: #6325b2;
+    font-family: 'Georgia', serif;
+    font-size: 25px;
+}
+
+.t2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
